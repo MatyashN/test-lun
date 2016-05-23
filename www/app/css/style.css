@@ -17,7 +17,6 @@ a {
 
 .main {
   display: flex;
-  height: 100vh;
   flex-direction: column;
 }
 
@@ -170,6 +169,7 @@ select:focus {
 }
 
 .scr-5 {
+  margin-top: 100px;
   width: 500px;
   flex-direction: column;
   margin: auto;
@@ -253,5 +253,9 @@ form .ng-dirty.ng-invalid:focus {
 
   .card {
     flex-direction: column;
+  }
+
+  .scr-5 {
+    margin-top: 10px;
   }
 }
