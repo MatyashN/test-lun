@@ -1,0 +1,16 @@
+<div class="scr scr-5">
+  <div class="card">
+    <div>
+      <p class="nameStr">{{data.name}}</p>
+      <p>{{data.mail}}</p>
+      <p>{{data.country.countryName}}, {{data.city.name}}</p>
+      <ul>
+        <li ng-repeat="netWork in data.netWorks | filter : {status:true}"><span>{{netWork.name}}</span> : {{netWork.url}}</li>
+      </ul>
+    </div>
+    <div style="background-image:url('{{data.image.url}}')"></div>
+  </div>
+  <div>
+    <a href="#/screen-1" ng-click="startOver()" class="orangeBut">Начать заново</a>
+  </div>
+</div>

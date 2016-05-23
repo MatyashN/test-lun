@@ -1,0 +1,20 @@
+<div class="scr scr-4">
+  <div class="nav">
+    <a href="#/screen-1" class="btn">1</a>
+    <a href="#/screen-2" class="btn">2</a>
+    <a href="#/screen-3" class="btn">3</a>
+    <a href="#/screen-4" class="btn active">4</a>
+  </div>
+  <div class="title">4.Выберите любимого котика</div>
+  <div class="content">
+    <label ng-repeat="img in images">
+      <input type="radio" name="imgs" ng-model="data.image" ng-value="img">
+      <div style="background-image:url('{{img.url}}')" ng-class="data.image.url == img.url ? 'checked' : ''" class="imgBox"></div>
+    </label>
+  </div>
+  <div class="warning"><p ng-show="data.image.type == 'dog'" >Вы выбрали собачку. А надо котика.</p></div>
+  <div class="btn-arrow">
+    <a href="#/screen-3">< Предыдущий</a>
+    <a href="#/screen-5" class="orangeBut" ng-class="data.image.type == 'dog' || !data.image.type ? 'disabled' : 'able'">Завершить</a>
+  </div>  
+</div>

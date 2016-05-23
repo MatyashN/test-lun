@@ -1,0 +1,126 @@
+{
+  "countries": [
+    {
+      "countryNum": "1",
+      "countryName": "Ukraine"
+    },
+    {
+      "countryNum": "2",
+      "countryName": "Germany"
+    },
+    {
+      "countryNum": "3",
+      "countryName": "France"
+    },
+    {
+      "countryNum": "4",
+      "countryName": "Spain"
+    },
+    {
+      "countryNum": "5",
+      "countryName": "Sweden"
+    },
+    {
+      "countryNum": "6",
+      "countryName": "USA"
+    },
+    {
+      "countryNum": "7",
+      "countryName": "Canada"
+    },
+    {
+      "countryNum": "8",
+      "countryName": "Moldova"
+    },
+    {
+      "countryNum": "9",
+      "countryName": "Belarus"
+    },
+    {
+      "countryNum": "10",
+      "countryName": "Poland"
+    }
+  ],
+  "cities": [
+    {
+      "country": 1,
+      "name": "Киев"
+    },
+    {
+      "country": 3,
+      "name": "Париж"
+    },
+    {
+      "country": 4,
+      "name": "Мадрид"
+    },
+    {
+      "country": 6,
+      "name": "Хьюстон"
+    },
+    {
+      "country": 7,
+      "name": "Монреаль"
+    },
+    {
+      "country": 8,
+      "name": "Кишинев"
+    },
+    {
+      "country": 9,
+      "name": "Минск"
+    },
+    {
+      "country": 10,
+      "name": "Варшава"
+    },
+    {
+      "country": 1,
+      "name": "Львов"
+    },
+    {
+      "country": 1,
+      "name": "Николаев"
+    },
+    {
+      "country": 1,
+      "name": "Переяслав-Хмельницкий"
+    },
+    {
+      "country": 1,
+      "name": "Каменец-Подольский"
+    },
+    {
+      "country": 1,
+      "name": "Донецк"
+    },
+    {
+      "country": 1,
+      "name": "Харьков"
+    },
+    {
+      "country": 1,
+      "name": "Луцк"
+    },
+    {
+      "country": 1,
+      "name": "Полтава"
+    },
+    {
+      "country": 1,
+      "name": "Черновцы"
+    },
+    {
+      "country": 1,
+      "name": "Чернигов"
+    },
+    {
+      "country": 2,
+      "name": "Мюнхен"
+    },
+    {
+      "country": 5,
+      "name": "Стокгольм"
+    }
+  ]
+}

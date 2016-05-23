@@ -1,0 +1,20 @@
+<div class="scr scr-1">
+  <div class="nav">
+    <a href="#/screen-1" class="btn active">1</a>
+    <a href="#/screen-2" class="btn" ng-class="form1.$invalid ? 'disabled' : 'able'">2</a>
+    <a href="#/screen-3" class="btn disabled">3</a>
+    <a href="#/screen-4" class="btn disabled">4</a>
+  </div>
+  <div class="title">1.Введите имя и e-mail</div>
+  <div class="content">
+    <form name="form1" novalidate>
+      <input type="text" name="name" placeholder="name" ng-model="data.name" required><br>
+      <input type="email" name="email" placeholder="e-mail" ng-model="data.mail" required><br>
+    </form>
+  </div>
+  <div class="warning"><p ng-show="form1.$invalid">Введите коректные данные</p></div>
+  <div class="btn-arrow">
+    <a href="#/screen-1" class="disabled"><span class="glyphicon glyphicon-star-empty"></span>Предыдущий</a>
+    <a href="#/screen-2" ng-class="form1.$invalid ? 'disabled' : 'able'">Следующий ></a>
+  </div>
+</div>
